@@ -1,0 +1,19 @@
+<module xmlns="urn:jboss:module:1.0" name="org.nuxeo.client.nuxeo-java-client">
+    <resources>
+        <resource-root path="nuxeo-java-client-2.6-fixed-SNAPSHOT.jar"/>
+    </resources>
+
+    <dependencies>
+        <module name="sun.jdk"/>
+        <module name="javax.api"/>
+        <module name="javax.mail.mail"/>
+        <module name="javax.activation.api"/>
+        <module name="org.camunda.bpm.camunda-engine"/>
+        <module name="com.squareup.okhttp3.okhttp"/>
+        <module name="com.squareup.retrofit2.retrofit"/>
+        <module name="org.apache.logging.log4j.log4j-api"/>
+        <module name="com.fasterxml.jackson.core.jackson-databind"/>
+
+        <module name="com.google.guava.guava"/>
+    </dependencies>
+</module>

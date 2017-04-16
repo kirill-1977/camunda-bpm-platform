@@ -48,6 +48,11 @@
     </dependency>
 
     <dependency>
+      <groupId>org.camunda.bpm.identity</groupId>
+      <artifactId>camunda-identity-nuxeo</artifactId>
+    </dependency>
+
+    <dependency>
       <groupId>org.camunda.bpm</groupId>
       <artifactId>camunda-engine-plugin-spin</artifactId>
     </dependency>

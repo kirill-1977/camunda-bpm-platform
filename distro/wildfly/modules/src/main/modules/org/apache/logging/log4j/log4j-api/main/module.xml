@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.1" name="org.apache.logging.log4j.log4j-api">
+
+    <resources>
+        <resource-root path="log4j-api-2.4.1.jar"/>
+    </resources>
+</module>

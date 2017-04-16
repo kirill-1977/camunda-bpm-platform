@@ -39,6 +39,7 @@
         <include>com.fasterxml.uuid:java-uuid-generator:jar:*</include>
         <include>joda-time:joda-time:jar:*</include>
         <include>org.codehaus.groovy:groovy-all:jar:*</include>
+        <include>com.squareap.okhttp3:jar:*</include>
       </includes>
     </dependencySet>
   </dependencySets>

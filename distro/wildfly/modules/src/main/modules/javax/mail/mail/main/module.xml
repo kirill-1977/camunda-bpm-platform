@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.0" name="javax.mail.mail">
+    <resources>
+        <resource-root path="mail-1.4.1.jar"/>
+    </resources>
+
+    <dependencies>
+        <module name="javax.activation.api"/>
+        <module name="javax.api"/>
+    </dependencies>
+</module>

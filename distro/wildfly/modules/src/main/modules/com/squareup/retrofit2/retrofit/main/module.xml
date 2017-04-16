@@ -1,0 +1,10 @@
+<module xmlns="urn:jboss:module:1.0" name="com.squareup.retrofit2.retrofit">
+    <resources>
+        <resource-root path="retrofit-2.2.0.jar" />
+    </resources>
+    <dependencies>
+        <module name="javax.api"/>
+        <module name="com.squareup.okhttp3.okhttp"/>
+        <module name="com.squareup.okio.okio"/>
+    </dependencies>
+</module>

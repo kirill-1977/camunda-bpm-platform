@@ -1,0 +1,15 @@
+<module xmlns="urn:jboss:module:1.0" name="org.camunda.bpm.identity.camunda-identity-nuxeo">
+    <resources>
+        <resource-root path="camunda-identity-nuxeo-@project.version@.jar" />
+    </resources>
+
+    <dependencies>
+
+        <module name="sun.jdk" />
+
+        <module name="javax.api" />
+        <module name="org.camunda.bpm.camunda-engine" />
+
+        <module name="org.nuxeo.client.nuxeo-java-client" />
+    </dependencies>
+</module>

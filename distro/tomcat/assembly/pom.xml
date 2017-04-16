@@ -76,6 +76,11 @@
     </dependency>
 
     <dependency>
+      <groupId>org.camunda.bpm.identity</groupId>
+      <artifactId>camunda-identity-nuxeo</artifactId>
+    </dependency>
+
+    <dependency>
       <groupId>org.camunda.spin</groupId>
       <artifactId>camunda-spin-core</artifactId>
     </dependency>

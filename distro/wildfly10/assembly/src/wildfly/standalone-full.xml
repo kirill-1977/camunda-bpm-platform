@@ -462,6 +462,16 @@
                             <class>org.camunda.connect.plugin.impl.ConnectProcessEnginePlugin</class>
                         </plugin>
 
+                        <!-- plugin enabling connect from NUXEO -->
+                        <plugin>
+                            <class>org.camunda.bpm.identity.impl.nuxeo.plugin.NixedIdentityProviderPlugin</class>
+                            <properties>
+                                <property name="nuxeoUrl">http://localhost:8080/nuxeo</property>
+                                <property name="adminUsername">Administrator</property>
+                                <property name="adminPassword">Administrator</property>
+                            </properties>
+                        </plugin>
+
                         <!-- LDAP CONFIGURATION -->
                         <!-- Uncomment this section in order to enable LDAP support for this process engine -->
                         <!-- Adjust configuration, see ( http://docs.camunda.org/latest/guides/user-guide/#process-engine-identity-service-the-ldap-identity-service ) -->
